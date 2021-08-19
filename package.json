@@ -1,7 +1,6 @@
 {
   "name": "exercicio-cypress-puro",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
@@ -11,7 +10,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^8.2.0",
+    "cypress": "^8.3.0",
     "faker": "^5.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelBSBarros/cypress_puro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MichaelBSBarros/cypress_puro/issues"
+  },
+  "homepage": "https://github.com/MichaelBSBarros/cypress_puro#readme",
+  "description": ""
 }
