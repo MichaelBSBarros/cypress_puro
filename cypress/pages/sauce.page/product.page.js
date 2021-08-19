@@ -36,12 +36,12 @@ export class Product_page extends Base {
 
     }
 
-    static validar_cart_icon(iconeCarrinho){
+    static validar_cart_icon(iconeCarrinho, prodQuantidade){
 
         if (!iconeCarrinho){
             cy.get(Produto.QDT_PROD_CART).should('not.exist')
         } else {
-            cy.get(Produto.QDT_PROD_CART).should('contain.text', 2)
+            cy.get(Produto.QDT_PROD_CART).should('contain.text', prodQuantidade)
         }
                 
     }

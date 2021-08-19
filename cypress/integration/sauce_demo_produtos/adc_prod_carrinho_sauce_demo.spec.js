@@ -22,7 +22,7 @@ describe('Adicionar produtos no carrinho Sauce Demo', () => {
                         Product_page.selecionar_produto(prod.testCase)
                     })
                     it('Então a quantidade de itens no carrinho deve aumentar', () => {
-                        Product_page.validar_cart_icon(true)
+                        Product_page.validar_cart_icon(true, prod.quantidade)
                     })
                 })
             })

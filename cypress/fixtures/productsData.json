@@ -1,10 +1,12 @@
 [
     {
-        "testCase": "apenas 1 produto"
+        "testCase": "apenas 1 produto",
+        "quantidade": 1
 
     },
     {
-        "testCase": "mais de 1 produto"
+        "testCase": "mais de 1 produto",
+        "quantidade": 2
 
     }
 ]
